@@ -5,7 +5,7 @@ metadata:
   name: hello
 spec:
   schedule: "*/1 * * * *"
-  concurrencyPolicy: Allow
+  concurrencyPolicy: Forbid
   jobTemplate:
     spec:
       backoffLimit: 2
